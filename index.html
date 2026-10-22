@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dimas | Profil dan Prestasi Mahasiswa</title>
+  <meta name="description" content="Profil dan portofolio prestasi Dimas, termasuk catur nasional, puisi nasional, futsal Provinsi Jawa Timur, serta kegiatan duta kampus.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Dimas | Profil dan Prestasi">
+  <meta property="og:description" content="Portofolio prestasi, penghargaan, dan kegiatan Dimas.">
+  <meta property="og:type" content="website">
+  <style>
+    :root { --green:#153d32; --gold:#e4c778; --ink:#1f2937; --muted:#667085; --paper:#f6f7f5; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--paper); color:var(--ink); line-height:1.6; }
+    header { background:linear-gradient(135deg,#153d32,#235a49); color:white; padding:56px 20px 48px; }
+    .wrap { max-width:920px; margin:auto; }
+    .eyebrow { color:var(--gold); text-transform:uppercase; letter-spacing:.12em; font-size:.8rem; font-weight:700; }
+    h1 { font-size:clamp(2.3rem,7vw,4rem); margin:.25rem 0; line-height:1.1; }
+    header p { max-width:650px; margin:12px 0 0; }
+    main { max-width:920px; margin:28px auto; padding:0 16px 40px; }
+    section { background:white; padding:24px; border-radius:18px; margin-bottom:20px; box-shadow:0 5px 22px #152b2010; }
+    h2 { margin-top:0; color:var(--green); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; }
+    .item { border:1px solid #e5e7eb; border-radius:14px; padding:18px; }
+    .year { display:inline-block; background:#f8f0d7; color:#634e12; border-radius:999px; padding:3px 10px; font-size:.8rem; font-weight:700; }
+    .item h3 { margin:10px 0 6px; font-size:1.08rem; }
+    .item p { margin:0; color:var(--muted); font-size:.94rem; }
+    .note { color:var(--muted); font-size:.88rem; }
+    footer { text-align:center; color:var(--muted); padding:24px 16px; font-size:.9rem; }
+    a { color:var(--green); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Profil • Prestasi • Pengabdian</div>
+      <h1>Dimas</h1>
+      <p><strong>Portofolio Prestasi dan Kegiatan</strong></p>
+      <p>Mahasiswa dan duta kampus — UIN Jurai Siwo Lampung</p>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Tentang Dimas</h2>
+      <p>Halaman ini merupakan portofolio untuk menampilkan prestasi, penghargaan, dan kegiatan Dimas. Informasi profil dapat dilengkapi dengan nama lengkap, program studi, dokumentasi, dan tautan publikasi resmi.</p>
+    </section>
+    <section>
+      <h2>Prestasi dan Pencapaian</h2>
+      <div class="grid">
+        <article class="item">
+          <span class="year">2023</span>
+          <h3>Juara Puisi Nasional</h3>
+          <p>Bidang sastra dan seni · Tingkat nasional.</p>
+        </article>
+        <article class="item">
+          <span class="year">2022</span>
+          <h3>Juara Catur Nasional</h3>
+          <p>Bidang olahraga catur · Tingkat nasional.</p>
+        </article>
+        <article class="item">
+          <span class="year">2021</span>
+          <h3>Juara Futsal Provinsi Jawa Timur</h3>
+          <p>Bidang olahraga futsal · Tingkat provinsi.</p>
+        </article>
+        <article class="item">
+          <span class="year">2026</span>
+          <h3>Winner Duta FTIK</h3>
+          <p>Fakultas Tarbiyah dan Ilmu Keguruan — lengkapi dengan informasi resmi jika diperlukan.</p>
+        </article>
+        <article class="item">
+          <span class="year">2026</span>
+          <h3>Duta Gender dan Anak</h3>
+          <p>UIN Jurai Siwo Lampung — lengkapi dengan tautan pengumuman atau dokumentasi resmi.</p>
+        </article>
+      </div>
+      <p class="note">Catatan: pastikan nama kompetisi, penyelenggara, tahun, dan gelar sesuai sertifikat atau pengumuman resmi sebelum dipublikasikan.</p>
+    </section>
+    <section>
+      <h2>Dokumentasi dan Kontak</h2>
+      <p>Bagian ini dapat diisi foto penyerahan penghargaan, sertifikat, tautan berita, serta akun media sosial atau email publik yang ingin ditampilkan.</p>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Portofolio Dimas</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
